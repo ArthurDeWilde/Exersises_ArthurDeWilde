@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elite Estate</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/Elite estate logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-window-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="#about_us">ABOUT US</a></li>
+                    <li><a href="all_properties.html">PROPERTIES</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>World's Most <strong> Luxurious </strong> Real Estate</h1>
+            <p>Presented to you by Elite Estate Agency.</p>
+            <a href="all_properties.html" class="hero-btn">Discover Our Properties</a>
+        </div>
+    </section>
+    <!-----course----->
+    <section class="course">
+        <h1>What may we assist you with?</h1>
+
+
+        <div class="row">
+            <div class="course-col">
+                <h3>I want to sell or rent my property</h3>
+                <a href="Selling.html">Start here</a>
+            </div>
+            <div class="course-col">
+                <h3>I'm looking to buy a property</h3>
+                <a href="all_properties.html">Start browsing</a>
+            </div>
+            <div class="course-col">
+                <h3>I want an appointment</h3>
+                <a href="appointment.html">Book now</a>
+            </div>
+        </div>
+    </section>
+    <!-----campus----->
+    <section class="campus">
+        <h1>Popular Regions</h1>
+
+
+        <div class="row">
+            <div class="campus-col">
+                <img src="images/houston_skyline.png">
+                <a href="Properties_houston.html">
+                    <div class="layer">
+                        <h3>HOUSTON</h3>
+                    </div>
+                </a>
+            </div>
+
+            <div class="campus-col">
+                <img src="images/washingtondc.png">
+                <a href="Properties_washington.html">
+                    <div class="layer">
+                        <h3>WASHINGTON</h3>
+                    </div>
+                </a>
+            </div>
+            <div class="campus-col">
+                <img src="images/newyork_skyline.png">
+                <a href="Properties_newyork.html">
+                    <div class="layer">
+                        <h3>NEW YORK</h3>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+    </section>
+    <!-----Facilities----->
+
+    <section class="facilities">
+        <h1>In the spotlight</h1>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/bahamas.png">
+                <h3>Looking for a getaway in the Bahamas?</h3>
+                <p>Discover our wide variety of Beach Houses <br> in the Caribbean.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/brooklyn.jpeg">
+                <h3>World Class View</h3>
+                <p>An exclusive view for someone with an exclusive vision.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/map_us.jpeg">
+                <h3>Largest Market</h3>
+                <p>Looking for a luxery property anywhere in the US? We've Got You Covered. </p>
+            </div>
+        </div>
+    </section>
+    <!-----testimonials----->
+    <section class="testimonials">
+        <h1 id="about_us">About us</h1>
+        <p>A team of people with a devotion of turning a house into your home.</p>
+        <div class="row">
+            <div class="testimonial-col">
+                <img src="images/team.jpeg">
+                <div>
+                    <h3>Our team</h3>
+                </div>
+            </div>
+            <div class="testimonial-col">
+                <div>
+                    <h3>Prestige</h3>
+                    <p>fzoehfuzhferifljhbiej fhjeuifjhezkfheizuf hezjklfh ezuifo heofi lkehzf oieafhq zifeh zofihekoifh
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <footer>
+        &copy 2021 Elite Estate
+    </footer>
+
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        Function showMenu() {
+            navLinks.style.right = "0";
+        }
+        Function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
