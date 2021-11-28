@@ -473,12 +473,14 @@ h3 {
 
 .testimonial-col p {
     padding: 0;
-    font-size: 15px;
+    font-size: 17px;
+    font-weight: bold;
 }
 
 .testimonial-col h3 {
     margin-top: 15px;
     text-align: left;
+    color: #C1B55E;
 }
 
 /*properties*/
